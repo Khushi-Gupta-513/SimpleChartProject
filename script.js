@@ -8,7 +8,9 @@ new Chart(ctx, {
             {
                 label: "Votes",
                 data: [12, 9, 3],
-                backgroundColor: ["red", "blue", "yellow"]
+                backgroundColor: ["red", "blue", "yellow"],
+                borderColor: ["darkred", "darkblue", "gold"],
+                borderWidth: 2
             }
         ]
     }
